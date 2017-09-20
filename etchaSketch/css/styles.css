@@ -1,0 +1,57 @@
+.container {
+	overflow: auto;
+	width: 960px;
+	margin: auto;	
+}
+
+.square {
+	background: black;
+	float: left;
+	border: 1px solid white;
+}
+
+.row {
+	clear: both;
+}
+
+.highlight {
+	background: red;   
+}
+
+h1 {
+	text-align: center;	
+}
+
+.button1 {
+	margin: 5px;
+	width: 120px;
+	display: inline;		
+}
+
+.button2 {
+	margin: 5px;
+	width: 120px;
+	display: inline;	
+}
+
+.button3 {
+	display: inline;	
+}
+
+.button4 {
+	display: inline;
+}
+
+.button-container {
+	padding-left: 420px;
+}
+
+
+h2, li {
+	text-align: center;
+	list-style-type: none;
+}
+
+.instructions {
+	display: none;
+}
