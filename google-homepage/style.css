@@ -1,0 +1,94 @@
+.logo img {
+ 	 display: block;
+	 height: 92px;
+	 width: 272px;
+	 padding-top: 109px;
+	 margin-left: 490px;
+	 margin-right: auto;
+}
+
+#text{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	width: 500px;
+	height: 30px;
+}
+
+#search {
+	position: relative;
+    margin-left: 485px;
+    padding: 10px;
+    width: 150px;
+    border-style: solid;
+}
+
+#lucky {
+	position: relative;
+	margin-left: 5px;
+	padding: 10px;
+	width: 150px;
+	border-style: solid;
+}
+
+ul {
+	list-style-type: none;
+}
+
+.navli  {
+	display: inline;
+	padding: 5px 5px 0px 10px;
+	float: right;
+	font-family: arial;
+	font-size: 15px;
+}
+
+button {
+  background: #2E8AE6;
+  border:none;
+  height:25px;
+  width:70px;	
+  padding: 2px;
+  text-align: center;
+  color: white;
+}
+
+.navli a {
+	text-decoration: none;	
+	color: black;
+}
+
+.footer {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.footer  {
+	position: absolute;
+	border-color: gray;
+	width: 100%;
+	margin-top: 245px;
+	margin-left: -15px;		
+}
+
+#right {
+  margin-top: -16px;	
+  padding-right: 10px;
+}
+
+.footer li {
+	display: inline;
+	padding: 5px 5px 0px 10px;
+	font-size: 15px;
+}
+
+.footer a {
+	text-decoration: none;
+	color: black;
+}
+
+
+
+
