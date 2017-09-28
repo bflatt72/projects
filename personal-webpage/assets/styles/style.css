@@ -39,7 +39,7 @@ blockquote, q {
 }
 blockquote:before, blockquote:after,
 q:before, q:after {
-	content: '';
+	content: '';h
 	content: none;
 }
 table {
@@ -52,6 +52,13 @@ table {
 	margin: 0 auto;
 	width: 1060px;
   }
+
+ 
+
+  /*html {
+  	box-sizing: border-box;
+  }*/
+
 
   /*
     ================================================
@@ -114,6 +121,7 @@ table {
 	display: flex;
 	justify-content: space-between;
 	border-top: 2px solid #648880;
+	/*flex: 1;*/
 }
 
 .logo h1 {
@@ -123,8 +131,8 @@ table {
 	line-height: 44px;
 	text-transform: uppercase;
 	/*padding-top: 10px;*/
-	
 }
+
 
 .dev {
 	font-size: 60px;
@@ -133,10 +141,20 @@ table {
 
 
 body {
+	/*background-image: url("hip-square.png");*/
+	/*background-size: 100%;*/
+
     color: #888;
     font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    background: #293f50;
+    background: #ffffcc
+;
  }
+
+  .wrapper {
+	  max-width: 1000px;
+	  margin: 0 auto;
+
+  }
 
 .tagline{
 	font-size: 14px;
@@ -148,13 +166,18 @@ body {
   font-weight: 400;
   letter-spacing: .5px;
   text-transform: uppercase;
+  width: 100%;
 }
+
+
 
 .nav {
 	display: flex;
 	justify-content: center;
+	/*flex: 1;*/
 	
 }
+
 
 
 .nav li {
@@ -162,14 +185,15 @@ body {
 	padding-top: 20px;
 }
 
-.nav a {
-	color: white;
-}
+
 
 .nav li:last-child {
 	margin-right: 0;
 
 }
+
+
+
 
 /*
   ==========================================
@@ -191,11 +215,12 @@ a {
 
 
 .hero {
-    color: #fff;
+	
     line-height: 34px;
     padding: 22px 80px 66px 80px;
     text-align: center;
     width: 75%;
+
     }
 
  .hero h2 {
@@ -204,7 +229,7 @@ a {
 
  .hero p {
      font-size: 24px;
-     font-weight: 100;
+     font-weight: 400;
    }
 
  .social {
@@ -225,4 +250,4 @@ a {
 
   }
 
-    
+
