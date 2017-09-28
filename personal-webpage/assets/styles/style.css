@@ -55,9 +55,7 @@ table {
 
  
 
-  /*html {
-  	box-sizing: border-box;
-  }*/
+  
 
 
   /*
@@ -121,7 +119,6 @@ table {
 	display: flex;
 	justify-content: space-between;
 	border-top: 2px solid #648880;
-	/*flex: 1;*/
 }
 
 .logo h1 {
@@ -130,7 +127,6 @@ table {
 	letter-spacing: .5px;
 	line-height: 44px;
 	text-transform: uppercase;
-	/*padding-top: 10px;*/
 }
 
 
@@ -141,13 +137,12 @@ table {
 
 
 body {
-	/*background-image: url("hip-square.png");*/
-	/*background-size: 100%;*/
+	
 
     color: #888;
     font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     background: #ffffcc
-;
+
  }
 
   .wrapper {
@@ -174,8 +169,6 @@ body {
 .nav {
 	display: flex;
 	justify-content: center;
-	/*flex: 1;*/
-	
 }
 
 
