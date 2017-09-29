@@ -52,7 +52,7 @@ table {
 .container {
 	margin: 0 auto;
 	width: 1060px;
-	min-height: 100%;
+	
   }
 
  
@@ -143,7 +143,7 @@ body {
 
     color: #888;
     font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    background: #ffffcc
+    background: #ffffcc;
     
 
  }
@@ -294,6 +294,6 @@ small {
 
 
 	
-}
+
 
 
