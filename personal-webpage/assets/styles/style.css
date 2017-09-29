@@ -22,6 +22,7 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
+	height: 100%;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -51,6 +52,7 @@ table {
 .container {
 	margin: 0 auto;
 	width: 1060px;
+	min-height: 100%;
   }
 
  
@@ -142,6 +144,7 @@ body {
     color: #888;
     font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     background: #ffffcc
+    
 
  }
 
@@ -210,19 +213,19 @@ a {
 .hero {
 	
     line-height: 34px;
-    padding: 22px 80px 66px 80px;
-    text-align: center;
-    width: 75%;
+    padding: 0 80px 66px 80px;
+    max-width: 75%;
 
     }
 
  .hero h2 {
      font-size: 26px;
+     text-align: center;
    }
 
  .hero p {
      font-size: 24px;
-     font-weight: 400;
+     font-weight: 300;
    }
 
  .social {
@@ -242,5 +245,55 @@ a {
    	padding-right: 0;
 
   }
+ 
+
+  .blurb {
+  	text-align: center;
+ 
+  }
+
+
+
+.blurb img {
+	float: left;
+	border-radius: 50%;
+	/*margin-top: 10px;*/
+	width: 200px;
+	height: 250px;
+	margin: 0 10px 0 125px;
+
+}
+
+
+.hello {
+	text-align: center;
+}
+
+.jack h1 {
+	text-align: center;
+}
+
+.primary-footer {
+	display: flex;
+	justify-content: space-between;
+	width: 1000px;
+	
+
+}
+
+small {
+	margin-top: 38px;
+}
+
+
+.primary-footer ul {
+	display: flex;
+}
+
+
+
+
+	
+}
 
 
