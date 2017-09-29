@@ -7,39 +7,49 @@
 <body>
 
 
-<div class="nav">
-<ul>
-	<div class="navli" id="btn"><button>Sign in</button></div>
-	<div class="navli"><li><a href="#"><img src="apps.png"></a></li></div>
-	<div class="navli"><li><a href="#">Images</a></li></div>
-	<div class="navli"><li><a href="#">Gmail</a></li></div>
-</ul>
-</div>
 
+<ul class ="nav">
+	<li class="link"><a href="#">Gmail</a></li>
+	<li class="link"><a href="#">Images</a></li>
+	<li class="apps"><a href="#"><img src="apps.png"></a></li>
+	<li id="btn"><button>Sign in</button>
+
+</ul>
+
+<div class="container">
 <div class="logo">
  <img src="googlelogo.png" alt="Google">
  </div>
 
- <div>
- 	<form>
- 		<input id ="text" type="text"><br>
- 		<input id="search" type="submit" value="Google Search">
- 		<input id="lucky" type="submit" value ="I'm Feeling Lucky">
+ 
+ 	<form class="input"> 
+ 		<input class="text" type="text"><br>
  	</form>
+
+ 	<form class="button">
+ 		
+ 		<button class="submit">Google Search</button>
+ 		<button class="submit">I'm Feeling Lucky</button>
+ 	
+ 	
+ 	</form>
+ 
  </div>
 
- <div class="footer">
- 	<ul id="left">
+ <footer class="footer">
+ 	<ul class="left">
  		<li><a href="#">Advertising</a></li>
  		<li><a href="#">Business</a></li>
  		<li><a href="#">About</a></li>
- 		<ul id="right"style="float:right; list-style-type:none;">
- 			<li><a href="#">Privacy</a></li>
- 			<li><a href="#">Terms</a></li>
- 			<li><a href="#">Settings</a></li>
- 		</ul>
  	</ul>
- </div>
+
+ 	<ul class="right"style="float:right; list-style-type:none;">
+ 		<li><a href="#">Privacy</a></li>
+ 		<li><a href="#">Terms</a></li>
+ 		<li><a href="#">Settings</a></li>
+ 	</ul>
+ 	
+ </footer>
  
 </body>
 </html>

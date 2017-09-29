@@ -1,92 +1,128 @@
+.container {
+	margin: 0 auto;
+	max-width: 500px;
+}
+
+.logo  {
+	display: flex;
+	justify-content: center;
+}
+
 .logo img {
- 	 display: block;
-	 height: 92px;
-	 width: 272px;
-	 padding-top: 109px;
-	 margin-left: 490px;
-	 margin-right: auto;
+	height: 92px;
+	width: 272px;
+	margin-top: 140px;
 }
 
-#text{
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 50px;
-	width: 500px;
-	height: 30px;
+.input {
+	display: flex;
+	justify-content: center;
+	margin-top: 30px;
+	border: 1px solid white;
 }
 
-#search {
-	position: relative;
-    margin-left: 485px;
-    padding: 10px;
-    width: 150px;
-    border-style: solid;
+.input .text {
+	height: 35px;
+	width: 100%;
+
 }
 
-#lucky {
-	position: relative;
-	margin-left: 5px;
-	padding: 10px;
-	width: 150px;
-	border-style: solid;
-}
+
+
+
 
 ul {
 	list-style-type: none;
 }
 
-.navli  {
-	display: inline;
-	padding: 5px 5px 0px 10px;
-	float: right;
+.nav  {
+	display: flex;
+	justify-content: flex-end;
 	font-family: arial;
 	font-size: 15px;
+}
+
+.nav li {
+	padding-right: 20px;
 }
 
 button {
   background: #2E8AE6;
   border:none;
-  height:25px;
+  height:30px;
   width:70px;	
   padding: 2px;
   text-align: center;
   color: white;
 }
 
-.navli a {
+.button  {
+	display: flex;
+	justify-content: center;
+
+}
+
+.button .submit {
+	margin-right: 10px;
+	height: 30px;
+    width: 150px;
+    border-style: none;
+    color: buttontext;
+    background-color: #f2f2f2;
+    border-radius: 2px;
+
+
+
+}
+
+.nav a {
 	text-decoration: none;	
 	color: black;
+	font-size: 12px;
 }
 
+.nav a:hover {
+	color: grey;
+}
+
+.nav img {
+	height: 20px;
+	padding-top: 5px;
+	color: grey;
+}
+
+.nav .link {
+	padding-top: 5px;
+}
 .footer {
+	display: flex;
+	justify-content: space-between;
 	list-style-type: none;
-	margin: 0;
-	padding: 0;
+	margin-top: 200px;
+	border-top: 1px solid #e4e4e4;
+	background: #f2f2f2;
+	height: 30px;
 }
 
-.footer  {
-	position: absolute;
-	border-color: gray;
-	width: 100%;
-	margin-top: 245px;
-	margin-left: -15px;		
+
+.footer .left {
+	display: flex;
 }
 
-#right {
-  margin-top: -16px;	
-  padding-right: 10px;
+.footer .right {
+	display: flex;
 }
 
 .footer li {
-	display: inline;
-	padding: 5px 5px 0px 10px;
+	color: white;
+	padding: 0 20px 25px 0;
 	font-size: 15px;
+	line-height: 15px;
 }
 
 .footer a {
 	text-decoration: none;
-	color: black;
+	color: grey;
 }
 
 
