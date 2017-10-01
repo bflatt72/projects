@@ -324,6 +324,10 @@ p a {
   vertical-align: top;
 }
 
+.speaker-info li {
+  list-style-type: none;
+}
+
 .speaker {
   margin-bottom: 44px;
 }
