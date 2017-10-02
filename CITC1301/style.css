@@ -5,6 +5,7 @@
 
 body {
 	background-image: url("concrete-texture.png");
+	font-family: "Lato", sans-serif;
 }
 
 
@@ -51,14 +52,10 @@ header {
   text-transform: uppercase;
 }
 
-
-
 .nav {
 	display: flex;
 	justify-content: center;
 }
-
-
 
 .nav li {
 	margin-right: 20px;
@@ -66,17 +63,15 @@ header {
 	list-style-type: none;
 }
 
-
-
 .nav li:last-child {
 	margin-right: 0;
 }
 
 .social {
-    display: flex;
+   display: flex;
   }
 
- .social li {
+.social li {
    padding-right: 34px;
    list-style-type: none;
  }
@@ -90,7 +85,7 @@ header {
 /* 
   =======================================================
 
-  Page Styles
+  Page One Styles
 
   =======================================================
 
@@ -106,17 +101,26 @@ header {
 
 .pageOne p {
 	width: 90%;
-
+	text-align: left;
+	margin-left: 25px;
 }
+
 .pageOne img {
 	border-radius: 50%;
 	width: 200px;
 	height: 250px;
 	float: left;
-	margin-left: 20px;
+	margin: 0 15px 0 20px;
 }
 
+/* 
+  ==============================================================
 
+  Page two Styles
+
+  ==============================================================
+
+ */
 
 .pageTwo {
 	background-image: url("topography.png");
@@ -124,22 +128,17 @@ header {
 	padding-top: 20px;
 }
 
-
 .pics {
 	display: flex;
 	justify-content: space-around;
 	padding-bottom: 20px;
-	
 }
 
 .pics img {
 	height: 200px;
 	width: 175px;
 	padding-top: 10px;
-
 }
-
-
 
 .pageTwo h3 {
 	text-align: center;
@@ -158,9 +157,17 @@ header {
 	padding-bottom: 10px;
 }
 
+.bullet {
+	font-weight: 600;
+}
+
+
+
 .outsideLinks li {
 	padding-top: 5px;
 }
+
+
 
 .top {
 	text-align: center;
