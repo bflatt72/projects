@@ -1,0 +1,187 @@
+.container {
+	max-width: 1060px;
+	margin: 0 auto;
+}
+
+body {
+	background-image: url("concrete-texture.png");
+}
+
+
+
+/* 
+	============================================
+
+	Header
+
+	============================================
+*/
+
+header {
+	background-image: url("concrete-texture.png");
+}
+
+.logo {
+	display: flex;
+	justify-content: space-between;
+	border-top: 2px solid #648880;
+}
+
+.logo h1 {
+	font-size: 24px;
+	font-weight: 300;
+	letter-spacing: .5px;
+	line-height: 44px;
+	text-transform: uppercase;
+}
+
+
+.dev {
+	font-size: 60px;
+}
+
+.tagline{
+	font-size: 14px;
+	padding: 72px 0 0 0;
+}
+
+.primary-nav {
+  font-size: 14px;
+  letter-spacing: .5px;
+  text-transform: uppercase;
+}
+
+
+
+.nav {
+	display: flex;
+	justify-content: center;
+}
+
+
+
+.nav li {
+	margin-right: 20px;
+	padding-top: 20px;
+	list-style-type: none;
+}
+
+
+
+.nav li:last-child {
+	margin-right: 0;
+}
+
+.social {
+    display: flex;
+  }
+
+ .social li {
+   padding-right: 34px;
+   list-style-type: none;
+ }
+  
+ .social li:last-child {
+   padding-right: 0;
+ }
+
+
+
+/* 
+  =======================================================
+
+  Page Styles
+
+  =======================================================
+
+ */
+
+.pageOne {
+	background-image: url("vintage-concrete.png");
+	height: 100%;
+	text-align: center;
+	padding-top: 5px;
+	text-align: center;
+}
+
+.pageOne p {
+	width: 90%;
+
+}
+.pageOne img {
+	border-radius: 50%;
+	width: 200px;
+	height: 250px;
+	float: left;
+	margin-left: 20px;
+}
+
+
+
+.pageTwo {
+	background-image: url("topography.png");
+	margin-top: 10px;
+	padding-top: 20px;
+}
+
+
+.pics {
+	display: flex;
+	justify-content: space-around;
+	padding-bottom: 20px;
+	
+}
+
+.pics img {
+	height: 200px;
+	width: 175px;
+	padding-top: 10px;
+
+}
+
+
+
+.pageTwo h3 {
+	text-align: center;
+}
+
+.pageTwo h4 {
+	text-align: center;
+}
+
+.pageTwo p {
+	width: 90%;
+}
+
+.pageTwo li {
+	margin-left: 20px;
+	padding-bottom: 10px;
+}
+
+.outsideLinks li {
+	padding-top: 5px;
+}
+
+.top {
+	text-align: center;
+}
+
+
+/*
+  ==========================================
+
+  Links
+
+  ==========================================
+
+*/
+
+a:hover {
+  color: #a9b2b9;
+}
+
+a {
+  color: #648880;
+  text-decoration: none;
+}
+
