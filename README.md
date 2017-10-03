@@ -7,5 +7,5 @@ This is my main projects folder which contains:
 3. project-Euler
 4. shayhowe HTML and CSS
 
-All progress notes will now be detailed in the #100daysofcode repo
+All progress notes will now be detailed in the [#100daysofcode repo](https://github.com/bflatt72/100-days-of-code/blob/master/log.md)
 
