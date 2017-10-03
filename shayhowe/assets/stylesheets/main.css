@@ -237,16 +237,30 @@ p a {
   border-bottom: 1px solid #dfe2e5;
 }
 
+
+.teaser-main {
+  display: flex;
+}
+
+.teaser {
+  text-align: center;
+  margin-bottom: 24px;
+}
 .teaser a:hover h3 {
   color: #a9b2b9;
 }
 
+
 .teaser img {
   border-radius: 5px;
-  display: block;
   margin-bottom: 22px;
-  max-width: 100%;
+  width: 100%;
+  height: 65%;
+  margin-left: 20px;
+  padding-right: 44px;
 }
+
+
 
 .primary-header a,
 .primary-footer a {
@@ -268,18 +282,21 @@ p a {
 */
 
 .nav {
-  text-align: right;
+  display: flex;
+  justify-content: flex-end;
 }
 
+
+
 .nav li {
-  display: inline-block;
-  margin: 0 10px;
-  vertical-align: top;
+  margin-right: 10px;
 }
 
 .nav li:last-child {
   margin-right: 0;
 }
+
+
 
 /*
   ================================================
@@ -363,14 +380,22 @@ p a {
   =====================================================
 
 */
+.register {
+  display: flex;
+  justify-content: space-between;
+  margin: 24px 64px 24px 24px;
+}
 
+.purchase {
+  width: 50%;
+}
 .why-attend {
   list-style: square;
   margin: 0 0 22px 30px;
 }
 
 form {
-  margin-bottom: 22px;
+  padding-top: 26px;
 }
 
 input,
