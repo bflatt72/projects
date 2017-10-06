@@ -1,26 +1,28 @@
 
-html {
-	height: 100%;
-}
 
 .container {
 	margin: 0 auto;
-	width: 960px;
+	min-width: 960px;
 	
+  }
+
+  .wrapper {
+  	margin: 0 auto;
+  	max-width: 960px;
   }
 
 
 body {
+	margin: 0 auto;
 	color: #888;
-    font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    background: #ffffcc;
+    font-family: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: #efebe9 brown lighten-5;
       }
 
 
-  header {
+ header {
   	background-color: #ffffcc;
-  	height: auto;
-  
+  	font-family: "Lato";
   }
 
   
@@ -34,9 +36,7 @@ body {
   	list-style-type: none;
   }
 
-  .btn {
-  	/*background-color: lightgray;*/
-  }
+  
 
 .nav {
 	display: flex;
@@ -102,15 +102,31 @@ img {
 }
 
 .hero {
-	display: flex;
-	justify-content: space-around;
-	background-color: #e2e2e2;
+	background-color: lightgray;
 	padding-top: 50px;
+	font-family: "Lato", sans-serif;
 }
 
-.hero p {
+
+
+	
+
+.blurb {
 	padding-top: 50px;
 	margin-left: 50px;
 	margin-right: 30px;
-	max-width: 75%;
+	padding-bottom: 20px;
+	max-width: 90%;
+	border-bottom: 6px solid white;
+	color: white;
+	font-size: 1.2em;
+
+
+}
+
+.experience {
+	margin-left: 50px;
+	max-width: 90%;
+	color: white;
+	font-size: 1.5em;
 }
