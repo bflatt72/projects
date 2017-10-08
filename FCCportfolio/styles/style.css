@@ -4,6 +4,8 @@
 
 
 body {
+	/*max-width: 1360px;*/
+	margin: 0 auto;
 	color: #888;
     font-family: "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     background-color: lightgray;
