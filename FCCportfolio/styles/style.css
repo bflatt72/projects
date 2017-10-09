@@ -6,11 +6,33 @@
 body {
 	/*max-width: 1360px;*/
 	margin: 0 auto;
-	color: #888;
+	/*font-color: white;*/
     font-family: "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    background-color: lightgray;
+    background-color: #ffffcc;
     font-size: 1.2em;
       }
+
+ nav {
+ 	background-color: gray;
+ 	font-color: white;
+ 	border-bottom: 1px solid black;
+ }
+
+.navbar-toggler-icon {
+	color: white;
+}
+
+.about {
+	color: #888;
+	/*background-color: #ffffcc;*/
+	/*border: 1px solid black;*/
+	border-top: none;
+	
+}
+
+.portfolios {
+	background-color: gray;
+}
 
 
  
@@ -20,19 +42,25 @@ body {
 	margin-left: 95px;
 	/*margin-left: auto;*/
 	/*margin-right: auto;*/
-	background-color: white;
-	color: white;
+	background-color: gray;
+	color: gray;
 	border: 0 none;
+	
 }
   
 
 .divider1 {
-	width: 60%;
+	width: 80%;
 	height: 6px;
-	background-color: gray;
-	color: gray;
+	background-color: black;
+	color: black;
 	border: 0 none;
 
+}
+
+.message {
+	height: 100px;
+	padding-bottom: 70px;
 }
 
   
@@ -50,11 +78,11 @@ body {
 */
 
 a:hover {
-  color: #a9b2b9;
+  color: black;
 }
 
 a {
-  color: #648880;
+  color: white;
   text-decoration: none;
 }
 
