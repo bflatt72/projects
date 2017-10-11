@@ -57,22 +57,64 @@ header {
 	padding: 72px 0 0 0;
 }
 
+.btn {
+
+
+	}
+
+.btn li {
+	list-style-type: none;
+	/*padding-bottom: 10px;*/
+}
+
 .primary-nav {
   font-size: 14px;
   letter-spacing: .5px;
   text-transform: uppercase;
 }
 
+
 /* Flexbox */
 
 .nav {
 	display: flex;
-	justify-content: center;
+	justify-content: space-around;
+
 }
 
+.nav1 {
+	padding-top: 5px;
+}
+
+#resources {
+	display: none;
+	padding-top: 5px;
+}
+
+
+#books {
+	display: none;
+	padding: 5px;
+}
+
+.photobtn {
+	display: flex;
+	justify-content: flex-start;
+}
+
+.photobtn button {
+	margin: 5px 5px 0 35px;
+}
+
+.photobtn button:last-child {
+	/*margin-right: 0;*/
+}
+
+
+
 .nav li {
-	margin-right: 20px;
-	padding-top: 20px;
+	margin-right: 30px;
+	/*padding-top: 0px;*/
 	list-style-type: none;
 }
 
@@ -81,7 +123,7 @@ header {
 }
 
 .social {
-   display: flex;
+   display: none;
   }
 
 .social li {
@@ -93,6 +135,11 @@ header {
    padding-right: 0;
  }
 
+ .swap {
+ 	display: flex;
+ 	/*padding-top: 10px;*/
+ }
+ 
 
 
 /* 

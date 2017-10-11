@@ -7,21 +7,31 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link href="https://fonts/googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+	<script type="text/javascript" src="scripts.js"></script>
 </head>
 
 
-<body>
+<body id="body">
 
 	<header id="top" class="primary-nav container">
 
-		<nav>
-		
-			<ul class="nav">
+		<nav class="nav">
+			<ul class="swap">
+				<li><button onclick="swapBackground()">Swap Background</button></li>
+				<li><button onclick="reload()">Original Background</button></li>
+				<li><button onclick="showSocial()">My Social</button></li>
+			</ul>
+
+			<ul class="nav nav1">
 				<li><a href="index.html">Home</a></li>
 				<li><a href="#pageOne">About Me</a></li>
 				<li><a href="#pageTwo">Hobbies/Interests</a></li>
 				<li><a href="https://bflatt72.github.io">Blog</a></li>
 			</ul>
+
+			
+
+			
 			
 		</nav>	
 
@@ -31,7 +41,8 @@
 				<a href="index.html">Flatt<br><span class="dev">Dev</span></a>
 			</h1>
 
-			<ul class="social">
+
+			<ul class="social" id="mySocial">
 				<li>
 					<a href="http://twitter.com/brianflatt72"><i class="fa fa-twitter"></i></a></li>
 			     <li>
@@ -46,16 +57,19 @@
 			     </li>
 			 </ul>
 			 <h3 class="tagline">Brian Flatt</h3>
-			     
+			 		     
 		</div>
 
 	</header>
 
  <section id="pageOne" class="pageOne container">
-
+ 	<div class="photobtn">
+	 	<button  onclick="changePic()">Photo 1</button>
+	 	<button onclick="changePic1()">Photo 2</button>
+ 	</div>
  	<h3>About Me</h2>
 
- 	<img src="me.jpg" alt="author photo">
+ 	<img src="me.jpg" alt="author photo" id="myPic">
 
  	<p>I am a 45 year old married father of 3, going to school at Pellissippi State Community College,  majoring in Computer Information Systems - Programming. I'm also working on teaching myself as much web development and programming as I can. There are so many free and cheap resources online to learn from, it's quite amazing. <br> <br> I have worked for the past 8 years as a Terminal Operator at Cummins Terminals in Knoxville, an oil and gas terminal, responsible for the safe flow of gasoline and diesel products into and out of our tankage from two major east coast pipelines. Prior to this, I spent 6 years in the US Navy as a nuclear machinist mate, worked in manufacturing, drove a tractor trailer over the road, and worked as an operating room attendant at UNC Chapel Hill Hospital. </br> </br> I have always wanted to finish my degree and have been to UTK where I changed majors from Biology to Math to English. With the help of Reconnect Now, I am determined to obtain my associates in Computer Programming and get a job working in Web Development or programming in Oak Ridge. <br> <br> In the last 3 years I've also been working on my health and physical fitness and have lost over 50 lbs. I am at the gym 5 or 6 days a week and have also run a couple 5k races, although I am not fast by any means.</p>
 
@@ -90,8 +104,8 @@
  		<li>Learning Web Development</i>
 
  			<p>I am teaching myself HTML/CSS and Javascript using the plethora of online resources available, a lot of which are free. There is almost zero excuse these days for anyone who wants to learn Web Development not doing so. What I have learned online on my own has helped with creating this website as well. Some of my favorite websites and online resources are</p>
-
- 			<ul class="outsideLinks">
+ 			<button onclick="showSection()">Show List</button>
+ 			<ul class="outsideLinks" id="resources">
  				<li><a href="https://www.youtube.com/channel/UCW5YeuERMmlnqo4oq8vwUpg">The Net Ninja - Youtube</a></li>
  				<li><a href="https://www.freecodecamp.org">FreeCodeCamp</a></li>
  				<li><a href="https://www.theodinproject.com">The Odin Project</a></li>
@@ -104,8 +118,8 @@
  		<li>Reading</i>
 
  			<P>My favorite authors are:</P>
-
- 				<ul class="outsideLinks">
+ 				<button onclick="showSection1()">Show List</button>
+ 				<ul class="outsideLinks" id="books">
  					<li>James Surowiecki <a href="https://www.goodreads.com/book/show/68143.The_Wisdom_of_Crowds">The Wisdom of Crowds</a></li>
  					<li>Mark Twain</li>
  					<li>Fyodor Dostoevsky <a href="https://www.goodreads.com/book/show/4934.The_Brothers_Karamazov">The Brother's Karamazov</a></li>
@@ -131,6 +145,9 @@
  	</div>
 
  </section>
+
+ 
+
 
 </body>
 
