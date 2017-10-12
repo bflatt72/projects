@@ -17,6 +17,10 @@ body {
  	border-bottom: 1px solid white;
  }
 
+ .footer {
+ 	background-color: gray;
+ }
+
 
 .portfolios {
 	color: #888;
@@ -25,7 +29,9 @@ body {
 }
 
 
-
+.social {
+	list-style-type: none;
+}
 
  
 .divider {
