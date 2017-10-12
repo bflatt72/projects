@@ -13,18 +13,17 @@ body {
       }
 
  nav {
- 	background-color: lightgray;
+ 	background-color: gray;
  	border-bottom: 1px solid white;
  }
 
 
-.portfolio {
+.portfolios {
 	color: #888;
-	background-color: darkgray;
+	background-color: gray;
 	border-bottom: 1px solid white;
 }
 
-.about
 
 
 
@@ -35,8 +34,8 @@ body {
 	margin-left: 95px;
 	/*margin-left: auto;*/
 	/*margin-right: auto;*/
-	background-color: white;
-	color: white;
+	background-color: gray;
+	color: gray;
 	border: 0 none;
 }
   
@@ -44,8 +43,8 @@ body {
 .divider1 {
 	width: 60%;
 	height: 6px;
-	background-color: gray;
-	color: gray;
+	background-color: white;
+	color: white;
 	border: 0 none;
 
 }
