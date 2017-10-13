@@ -49,14 +49,12 @@ body {
 
  
 .divider {
-	width: 80%;
+	width: 60%;
 	height: 6px;
-	margin-left: 95px;
 	background-color: gray;
 	color: gray;
 	border: 0 none;
 }
-  
 
 .divider1 {
 	width: 60%;
@@ -64,17 +62,12 @@ body {
 	background-color: white;
 	color: white;
 	border: 0 none;
-
 }
 
 .message {
 	height: 100px;
 	padding-bottom: 70px;
 }
-
-  
-
-
 
 
 /*
