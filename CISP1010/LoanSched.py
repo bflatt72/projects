@@ -1,6 +1,11 @@
+# This program is a port of final exam from Computer Science I class
+# from C++ to Python. It will calculate a loan schedule based on user
+# inputted data and display the schedule in a table.
+
+# needed for pow function
 from math import *
 
-
+# function definitions with exception handling
 def get_price():
     while True:
         price = input("Please enter a vehicle price\n")
@@ -30,13 +35,13 @@ def get_down_payment(price, trade):
 
 def get_annual_int_rate():
     while True:
-        annual_int_rate = input("Please enter an annual interest rate\n")
+        annual_int_rate = input("Please enter an annual interest rate as a decimal\n")
         annual_int_rate = float(annual_int_rate)
         if annual_int_rate > 0 or annual_int_rate <= .19:
             break
     return annual_int_rate
 
-
+# calculates monthly payments and stores in a list back in main function
 def calc_mon_payment(annual_int_rate, loan_amt, no_months):
     mon_int_rate = annual_int_rate / 12.0
     payment = (loan_amt * mon_int_rate) / (1.0 - pow(1.0 + mon_int_rate, -no_months))
@@ -51,7 +56,7 @@ def display_loan_schedule(payments, price, trade, down_payment, annual_int_rate,
     print("Down Payment:   ${:<.2f}\n".format(down_payment))
     print("              -------------")
 
-    print("Loan Amount:    ${:5.2f}".format(loan_amt))
+    print("Loan Amount:    ${:5.2f}\n".format(loan_amt))
     print("Ann. Int. Rate:  {:.2f}%\n".format(annual_int_percent))
 
     print("Monthly Payment options\n")
@@ -70,6 +75,7 @@ def main():
     print("based on user inputted loan details\n")
     print("Enter all data without $ signs\n")
 
+    # function calls
     price = get_price()
     trade = get_trade(price)
     down_payment = get_down_payment(price, trade)
@@ -80,6 +86,7 @@ def main():
     payments = []
     no_months = 12
 
+    # loop that calls function to calculate monthly payments
     for i in range(4):
         payments.append(calc_mon_payment(annual_int_rate, loan_amt, no_months))
         no_months += 12
