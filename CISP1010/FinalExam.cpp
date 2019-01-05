@@ -1,6 +1,5 @@
 // Brian Flatt
 // CISP 1010
-// Dr Adcock
 // Final Exam: This program will calculate monthly car payment options based upon user
 // inputted loan details.
 
