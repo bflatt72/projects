@@ -108,11 +108,9 @@
       background: #293f50; 
       color: #888;
       cursor: pointer;
-      display: block;
       font-weight: 400;
       letter-spacing: .5px;
-      margin-left: auto;
-      margin-right: auto;
+      margin: auto;
       width: 50%;
       text-transform: uppercase;
     }
