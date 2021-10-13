@@ -104,14 +104,14 @@
   */
 
     .btn {
+      margin: auto;
+      width: 50%;
       border-radius: 5px;
       background: #293f50; 
       color: #888;
       cursor: pointer;
       font-weight: 400;
       letter-spacing: .5px;
-      margin: auto;
-      width: 50%;
       text-transform: uppercase;
     }
 
