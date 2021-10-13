@@ -108,7 +108,7 @@
       background: #293f50; 
       color: #888;
       cursor: pointer;
-      display: inline-block;
+      display: block;
       font-weight: 400;
       letter-spacing: .5px;
       margin: auto;
