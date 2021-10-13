@@ -16,7 +16,7 @@
   			 box-sizing: border-box;
   }
 
-  .container.
+  .container
   .grid {
   	margin: 0 auto;
   	width: 960px;
@@ -104,20 +104,21 @@
   */
 
     .btn {
-      margin: auto;
-      width: 50%;
       border-radius: 5px;
-      background: #293f50; 
-      color: #888;
+      color: #fff;
       cursor: pointer;
+      display: inline-block;
       font-weight: 400;
       letter-spacing: .5px;
+      margin: 0;
       text-transform: uppercase;
     }
 
     .btn-alt {
-      border: 1px solid #fff;
+      border: 1px solid rgb(58, 5, 5);
       padding: 10px 30px;
+  
+    
     }
 
     .btn-alt:hover {
