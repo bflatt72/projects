@@ -94,7 +94,7 @@
   padding: 44px 0 22px 0;
 }
 
-  
+  /*
     =================================================
 
     Buttons
@@ -117,6 +117,7 @@
     .btn-alt {
       border: 1px solid rgb(58, 5, 5);
       padding: 10px 30px;
+      background-color: #293f50;
   
     
     }
