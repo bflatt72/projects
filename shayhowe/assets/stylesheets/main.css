@@ -111,7 +111,7 @@
       display: inline-block;
       font-weight: 400;
       letter-spacing: .5px;
-      margin: 0 auto;
+      margin: auto;
       width: 50%;
       text-transform: uppercase;
     }
