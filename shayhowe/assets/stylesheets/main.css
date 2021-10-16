@@ -331,6 +331,7 @@ p a {
   margin-top: 88px;
   padding-bottom:  22px;
   text-align: center;
+  display: flex;
 
 }
 
@@ -347,6 +348,7 @@ p a {
 
 .speaker {
   margin-bottom: 44px;
+  display: flex;
 }
 
 /*
@@ -360,15 +362,18 @@ p a {
 
 .venue-theater {
   margin-bottom: 66px;
+  display: flex;
 }
 
 .venue-hotel {
   margin-bottom: 22px;
+  display: flex;
 }
 
 .venue-map {
   height: 264px;
   border: none;
+  display: flex;
 }
 
 
