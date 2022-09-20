@@ -87,7 +87,7 @@ def main():
     no_months = 12
 
     # loop that calls function to calculate monthly payments
-    for i in range(4):
+    for i in range(6):
         payments.append(calc_mon_payment(annual_int_rate, loan_amt, no_months))
         no_months += 12
 
