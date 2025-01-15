@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+</head>
+<body>
+
+    <header>
+        <h1 id="title">FlattDev Survey Form</h1>
+        <p>Your thoughts and opinions matter to us!</p>
+    </header>
+
+    <main>
+        <form method="POST" id="survey-form" action="https:survery-form.www.freecodecamp.org">
+
+            <fieldset>
+                <label id="name-label" for="name">Name</label>
+                <input required id="name" name="name" type="text" placeholder="Enter your name" />
+
+
+                <label id="email-label" for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="example@email.com" />
+
+
+
+                <label id="number-label" for="age">Age (optional)</label>
+                <input type="number" name="age" id="age" min="18" max="100" placeholder="Age" />
+            </fieldset>
+
+            <fieldset>
+                <legend>Was this your first time working with us?</legend>
+                <label for="yes-option">Yes</label>
+                <input type="radio" id="yes-option" name="return-customer" value="yes">
+
+                <label for="no-option">No</label>
+                <input type="radio" id="no-option" name="return-customer" value="no">
+            </fieldset>
+
+            <fieldset>
+                <legend>How did you hear about us?</legend>
+                <label for="ads">Social Media Ads</label>
+                <input type="checkbox" id="ads" name="ads" value="ads">
+
+                <label for="word-of-mouth">Word of Mouth</label>
+                <input checked type="checkbox" id="word-of-mouth" name="word-of-mouth" value="word-of-mouth">
+
+                <label for="search">Google Search</label>
+                <input type="checkbox" id="search" name="search" value="search">
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Rate us</legend>
+                <label for="dropdown">How satisfied are you with the end product?</label>
+                <select name="service" id="dropdown">
+                    <option value="poor">You suck!</option>
+                    <option value="meh">Meh</option>
+                    <option value="Serviceable">Serviceable</option>
+                    <option value="impressed">Impressed</option>
+                    <option selected value="Wow">Wow</option>
+                </select>
+
+                <label for="dropdown">How quickly did we provide a completed solution?</label>
+                <select name="speed" id="dropdown">
+                    <option value="dude">Dude, really?!</option>
+                    <option value="slow">Kinda slow!</option>
+                    <option selected value="early">Early!</option>
+                    <option value="on-time">On time</option>
+                    <option value="late">Late</option>
+                    <option value="super-late">Super late, Jeez!!</option>
+                </select>
+
+                <fieldset>
+                <label for "comments">Penny for your thoughts?</label>
+                <textarea cols="30" rows="10 name=comments" id="comments></textarea"></textarea>
+                </fieldset>
+                <button id ="submit" type="submit">Submit!"</button>
+    
+                </main>
+</body>
+</html>
