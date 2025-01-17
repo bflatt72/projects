@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+</head>
+<body>
+    <h1>Checkout</h1>
+    <section>
+        <h2>Your Cart</h2>
+        <img src="https://cdn.freecodecamp.org/curriculum/labs/cube.jpg"  alt="A Rubic's Cube">
+        <p>$5.99</p>
+    </section>
+    <section>
+        <h2>Payment Information</h2>
+       
+        <form action="https://www.freecodecamp.org">
+            
+            <label for="card-name">Cardholder Name</label>
+            <input required aria-required="true" type="text" id="card-name" name="card-name"/>
+            <br>
+            <label for="card-number">Card Number</label>
+            <input required aria-requrired="true" type="number" id="card-number" name="card-number"/>
+            <br>
+            <label for="expiry">Expiry Date</label>
+            <input type="number" required id="expiry" name="expiry"/>
+            <br>
+            <label for "cvv">CVV</label>
+            <input type="number" id="cvv" name="cvv" />
+            <br>
+            <input type="submit" value="Place Order"/>
+        </form>
+  
+    </section>
+
+</body>
+</html>
