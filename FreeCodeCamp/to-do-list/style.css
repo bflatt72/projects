@@ -1,0 +1,60 @@
+body {
+  background-color: whitesmoke;
+}
+
+.cards {
+  width: 400px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: groove;
+  text-align: center;
+  border-radius: 10px;
+  background-color: white;
+  padding-bottom: 10px;
+}
+
+.todo-list {
+  list-style: none;
+}
+
+.list-item {
+  border-style: groove;
+  height: auto;
+  margin-right: 50px;
+  margin-left: auto;
+  list-style: none;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: left;
+  margin-bottom: 10px;
+  background-color: cornsilk;
+}
+
+.sub-item {
+  list-style-position: outside;
+  list-style: square;
+}
+
+sub-item-link {
+  text-decoration: none;
+}
+
+a:link {
+  color: blue;
+}
+a:visited {
+  color: green;
+}
+
+a:active {
+  color: orange;
+}
+
+a:focus {
+  outline: 2px solid red;
+}
+
+a:hover {
+  color: yellow;
+}
