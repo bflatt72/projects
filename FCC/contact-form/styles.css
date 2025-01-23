@@ -1,0 +1,45 @@
+body {
+    background: radial-gradient(circle, rgb(209, 190, 190) 0%, rgb(10, 10, 10) 100%);
+}
+
+.form-container {
+    background-color: #f2f2f2;
+    border-radius: 2px;
+    padding: 10px;
+    width: 400px;
+    margin: 0 auto;;
+}
+
+h2 {
+    text-align: center;
+
+}
+
+label {
+    margin: 10px;
+    color: #333;
+    
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px auto;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    width: 100%;
+    font-size: 1.5em;
+}
+
+button:hover {
+    background-color: #45a049;
+}
