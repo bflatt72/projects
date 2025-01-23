@@ -49,7 +49,7 @@ button:hover {
 .radio-group {
   display: flex;
   flex-direction: row;
-  align-items: spaca-around;
+  align-items: space-around;
   width: 92%;
   margin-bottom: 30px;
 }
