@@ -4,9 +4,8 @@ body {
 
 .container {
 
-  width: 70vw;
+  width: 90%;
   max-width: 400px;
-  
   margin: 0 auto;
   border: 1px solid black;
   background-color: white;
@@ -49,9 +48,22 @@ button:hover {
 
 .radio-group {
   display: flex;
-  width: 90%;
+  flex-direction: row;
+  align-items: spaca-around;
+  width: 92%;
   margin-bottom: 30px;
 }
+
+.radio-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.radio-item input[type="radio"] {
+  margin-right: 5px;;
+}
+
 
 
 .radio-group input[type="radio"]:checked {
