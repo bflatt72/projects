@@ -53,10 +53,7 @@ button:hover {
   margin-bottom: 30px;
 }
 
-.radio-group input {
-;
-  width: 100%;
-}
+
 .radio-group input[type="radio"]:checked {
   border-color: blue;
   background-color: aliceblue;
