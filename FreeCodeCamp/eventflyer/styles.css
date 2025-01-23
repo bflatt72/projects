@@ -9,6 +9,7 @@ body {
     border: 1px groove white;
     border-radius: 20px;
     width: 70vw;
+    max-width: 500px;
     margin: 0 auto;
     text-align: center;
     background-color: white;
