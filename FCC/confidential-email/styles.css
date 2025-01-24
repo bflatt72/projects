@@ -42,11 +42,11 @@
     padding: 10px;
 
     #confidential {
-      transform: rotate(-25deg) translate(100px, 110px);
+      transform: rotate(-25deg) translate(90px, 110px);
     }
 
     #top-secret {
-      transform: rotate(25deg) translate(100px, -50px);
+      transform: rotate(25deg) translate(100px, -60px);
     }
   }
 }
