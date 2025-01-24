@@ -1,13 +1,11 @@
 
-body {
-    margin: 0 auto;
-}
+
 
 
 #email {
     padding: 50px;
     margin: 50px auto;
-    width: 500px;
+    width: 450px;
     height: auto;
     border: 2px solid black;
     box-sizing: border-box;
