@@ -42,7 +42,10 @@
 }
 
 @media (max-width: 500px) {
+   
+   .email {
     width: 90vw;
     padding: 0;
    
+}
 }
