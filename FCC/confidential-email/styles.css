@@ -41,9 +41,9 @@
     filter: blur(3px);
 }
 
-@media (max-width: 600px) {
+@media (max-width: 767px) {
    
-   .email {
+   #email {
     width: 90vw;
     padding: 0;
    
