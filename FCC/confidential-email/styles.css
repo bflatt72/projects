@@ -5,7 +5,7 @@
 #email {
     padding: 50px;
     margin: 50px auto;
-    width: 450px;
+    width:  450px;
     height: auto;
     border: 2px solid black;
     box-sizing: border-box;
@@ -39,4 +39,8 @@
 
 .blurred {
     filter: blur(3px);
+}
+
+@media (max-width: 500px) {
+    width: 400px;
 }
