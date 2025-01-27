@@ -1,0 +1,75 @@
+html {
+  background-color: cadetblue;
+}
+
+#playing-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+.card {
+  width: 150px;
+  height: 250px;
+  border: 1px solid black;
+  border-radius: 8px;
+  padding: 8px;
+  margin: 10px;
+  position: relative;
+  background-color: white;
+}
+
+.left {
+  position: absolute
+  top: 8px;
+  left: 8px;
+  display: flex;
+  flex-direction: column;
+}
+
+.middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  font-size: 48px;
+}
+
+.right {
+  position: absolute;
+  bottom: 8px;
+  right: 8px;
+  display: flex;
+  flex-direction: column;
+  line-height: 1;
+  transform: rotate(180deg);
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.number {
+  font-size: 16px;
+  padding: 2px;
+  margin: 0;
+}
+
+.symbol {
+  font-size: 24px;
+  margin: 0;
+  padding: 0;
+}
+
+.middle .symbol {
+  font-size: 48px;
+}
+
+.middle #centered {
+    display: flex;
+    justify-content: center;
+}
