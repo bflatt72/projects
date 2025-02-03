@@ -86,10 +86,14 @@ p {
 
 @media screen and (max-width: 500px) {
   #navbar {
-    width: 180x;
+    display: none;
+    
+
   }
   .main-section {
-    margin-left: 200px;
-
+    margin-left: 0;
+  }
+  #navbar header {
+    display: none;
   }
 }
