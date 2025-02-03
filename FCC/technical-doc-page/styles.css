@@ -15,7 +15,7 @@ body {
   position: fixed;
   top: 0;
   left: 0;
-  width: 250px;
+  width: 275px;
   height: 100vh;
   background: #333;
   color: white;
@@ -36,6 +36,8 @@ body {
 #navbar h2 {
   text-align: center;
   margin-bottom: 20px;
+  padding-right: 5px;
+
 }
 
 #navbar ul {
@@ -56,7 +58,7 @@ body {
 }
 
 .main-section {
-  margin-left: 250px;
+  margin-left: 275px;
   padding: 20px;
   flex-grow: 1;
 }
@@ -75,22 +77,24 @@ p {
 
 @media screen and (max-width: 768px) {
   #navbar {
-    width: 200px;
+    width: 275px;
     height: 100vh;
   }
 
   .main-section {
-    margin-left: 200px;
+    margin-left: 275px;
   }
 }
 
 @media screen and (max-width: 500px) {
   #navbar {
-    width: 200px;
+    width: 275px;
   }
 
+  
+
   .main-section {
-    margin-left: 200px;
+    margin-left: 250px;
     width: 80%;
   }
 }
