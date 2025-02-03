@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+
+    <title>Technical Documentation</title>
+</head>
+<body>
+    <main id="main-doc">
+        <nav id="navbar">
+            <h2>Introduction to React</h2>
+            <ul>
+                <li></li>
+                <li>
+                    <a class="nav-link" href="#javascript_frameworks">Javascript Frameworks</a>
+                </li>
+
+                <li>
+                    <a class="nav-link" href="#client_side_frameworks">Client Side Frameworks</a>
+                </li>
+
+                <li><a class="nav-link" href="#main_features">Main Features</a></li>
+
+                <li>
+                    <a class="nav-link" href="#getting_started_with_react">Getting started</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#beginning_react_todo">Beginning React todo list</a>
+                </li>
+            </ul>
+        </nav>
+        <section id="javascript_frameworks" class="main-section">
+            <h2>JavaScript Frameworks and Libraries</h2>
+            <p></p>
+            <code></code>
+            <p>
+                JavaScript frameworks are an essential part of modern front-end web
+                development, providing developers with tried and tested tools for
+                building scalable, interactive web applications. Many modern companies
+                use frameworks as a standard part of their tooling, so many front-end
+                development jobs now require framework experience. In this set of
+                articles, we are aiming to give you a comfortable starting point to
+                help you begin learning frameworks.
+            </p>
+            <p>
+                As an aspiring front-end developer, it can be hard to work out where
+                to begin when learning frameworks — there are so many frameworks to
+                choose from, new ones appear all the time, they mostly work in a
+                similar way but do some things differently, and there are some
+                specific things to be careful about when using frameworks.
+            </p>
+            <p>
+                We are not aiming to exhaustively teach you everything you need to
+                know about React/ReactDOM, or Vue, or some other specific framework;
+                the framework teams' own docs (and other resources) do that job
+                already. Instead, we want to back up and first answer more fundamental
+                questions such as:
+            </p>
+            <ul>
+                <li>
+                    Why should I use a framework? What problems do they solve for me?
+                </li>
+                <li>
+                    What questions should I ask when trying to choose a framework? Do I
+                    even need to use a framework?
+                </li>
+                <li>
+                    What features do frameworks have? How do they work in general, and
+                    how do frameworks' implementations of these features differ?
+                </li>
+                <li>How do they relate to "vanilla" JavaScript or HTML?</li>
+            </ul>
+        </section>
+        <section id="client_side_frameworks" class="main-section">
+            <h2>Introduction to client-side frameworks</h2>
+            <p>
+                When JavaScript debuted in 1996, it added occasional interactivity and
+                excitement to a web that was, up until then, composed of static
+                documents. The web became not just a place to read things, but to do
+                things. JavaScript's popularity steadily increased. Developers who
+                worked with JavaScript wrote tools to solve the problems they faced,
+                and packaged them into reusable packages called libraries, so they
+                could share their solutions with others. This shared ecosystem of
+                libraries helped shape the growth of the web, and eventually gave way
+                to frameworks.
+            </p>
+            <p>
+                A framework is a library that offers opinions about how software gets
+                built. These opinions allow for predictability and homogeneity in an
+                application; predictability allows the software to scale to an
+                enormous size and still be maintainable; predictability and
+                maintainability are essential for the health and longevity of
+                software. The advent of modern JavaScript frameworks has made it much
+                easier to build highly dynamic, interactive applications.
+            </p>
+            <code></code>
+            <p></p>
+        </section>
+        <section id="main_features" class="main-section">
+            <h2>Framework main features</h2>
+            <p>
+                Most frameworks allow you to use domain-specific languages (DSLs) in
+                order to build your applications. In particular, React has popularized
+                the use of JSX for writing its components, while Ember utilizes
+                Handlebars. Unlike HTML, these languages know how to read data
+                variables, and this data can be used to streamline the process of
+                writing your UI.</p>
+            <p> Angular apps often make heavy use of TypeScript.
+                TypeScript is not concerned with the writing of user interfaces, but
+                it is a domain-specific language, and has significant differences to
+                vanilla JavaScript.</p>
+            <p>
+                < DSLs can't be read by the browser directly; they must be transformed into JavaScript or HTML first.
+                    Framework tooling generally includes the required tools to handle this step, or can be adjusted to
+                    include this step. While it is possible to build framework apps without using these domain-specific
+                    languages, embracing them will streamline your development process and make it easier to find help
+                    from the communities around those frameworks.</p>
+            </p>
+            <code></code>
+            <p></p>
+
+        </section>
+        <section id="getting_started_with_react" class="main-section">
+            <h2>Getting started with React</h2>
+            <p>As its official tagline states, React is a library for building user interfaces. React is not a framework
+                – it's not even exclusive to the web. It's used with other libraries to render to certain environments.
+                For instance, React Native can be used to build mobile applications.</p>
+
+            <p>To build for the web, developers use React in tandem with ReactDOM. React and ReactDOM are often
+                discussed in the same spaces as — and utilized to solve the same problems as — other true web
+                development frameworks. When we refer to React as a "framework", we're working with that colloquial
+                understanding.</p>
+
+            <p>React's primary goal is to minimize the bugs that occur when developers are building UIs. It does this
+                through the use of components — self-contained, logical pieces of code that describe a portion of the
+                user interface. These components can be composed together to create a full UI, and React abstracts away
+                much of the rendering work, leaving you to concentrate on the UI design.</p>
+            </p>
+        </section>
+        <p></p>
+        <code></code>
+        <p></p>
+        <section id="beginning_react_todo" class="main-section">
+            <h2>Beginning our React todo list</h2>
+            <p>In software development, a user story is an actionable goal from the perspective of the user. Defining
+                user stories before we begin our work will help us focus our work. Our app should fulfill the following
+                stories:</p>
+
+            <p>As a user, I can</p>
+            <ul>
+                <li>read a list of tasks.</li>
+                <li>add a task using the mouse or keyboard.</li>
+                <li>mark any task as completed, using the mouse or keyboard.</li>
+                <li>delete any task, using the mouse or keyboard.</li>
+                <li>edit any task, using the mouse or keyboard.</li>
+                <li>view a specific subset of tasks: All tasks, only the active task, or only the completed tasks.</li>
+            </ul>
+            <p>We'll tackle these stories one-by-one.</p>
+
+            <pre><code class="language-html">
+                    &lt;!DOCTYPE html&gt;
+                    &lt;html lang="en"&gt;
+                    &lt;/html&gt;
+                </code></pre>
+
+
+
+            <p></p>
+
+        </section>
+    </main>
+</body>
+</html>

@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Courier New", Courier, monospace;
+  display: flex;
+  font-size: 24px;
+  line-height: 2rem;
+}
+
+#navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 250px;
+  height: 100vh;
+  background: #333;
+  color: white;
+  padding-top: 20px;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: #888 #333;
+}
+
+#navbar a {
+  display: block;
+  color: black;
+  padding: 15px;
+  text-decoration: none;
+  border-bottom: 1px solid #444;
+}
+
+#navbar h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#navbar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#navbar ul li {
+  padding: 15px;
+  text-align: center;
+  border-bottom: 1px solid #444;
+}
+
+#navbar ul li a {
+  color: white;
+  text-decoration: none;
+  display: block;
+}
+
+.main-section {
+  margin-left: 250px;
+  padding: 20px;
+  flex-grow: 1;
+}
+
+.main-section h2 {
+  padding-bottom: 30px;
+}
+
+.main-section ul {
+  padding-left: 75px;
+}
+
+p {
+  padding-left: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  #navbar {
+    width: 200px;
+    height: 100vh;
+  }
+
+  .main-section {
+    margin-left: 200px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  #navbar {
+    width: 200px;
+  }
+
+  .main-section {
+    margin-left: 200px;
+    width: 80%;
+  }
+}
