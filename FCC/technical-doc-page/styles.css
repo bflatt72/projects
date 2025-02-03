@@ -13,6 +13,7 @@ body {
 
 #navbar {
   position: fixed;
+  flex-direction: column;
   top: 0;
   left: 0;
   width: 275px;
@@ -26,7 +27,7 @@ body {
 }
 
 #navbar a {
-  display: block;
+ 
   color: black;
   padding: 15px;
   text-decoration: none;
@@ -87,13 +88,14 @@ p {
 @media screen and (max-width: 500px) {
   #navbar {
     display: none;
-    
+   
+  }
 
-  }
+ 
   .main-section {
-    margin-left: 0;
-  }
-  #navbar header {
-    display: none;
+    margin: 0;
+    width: 100vw;
+ 
+    
   }
 }
