@@ -1,0 +1,7 @@
+{
+  "editor.fontFamily": "Monoid, 'monospace', monospace",
+  "editor.fontSize": 14,
+  "editor.lineHeight": 26,
+  "editor.fontLigatures": true,
+  "workbench.startupEditor": "newUntitledFile"
+}
