@@ -81,10 +81,11 @@ body {
 
 a:hover {
   color: #a9b2b9;
+  text-decoration: none;
 }
 
 a {
-  color: #648880;
+  color: #615959;
   text-decoration: none;
 }
 
@@ -97,4 +98,17 @@ a {
 }
 
 
+.cert, .cert h2 { 
+	text-align: center;
 
+}
+
+.fcc {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.icon {
+	padding-right: 10px;
+}
